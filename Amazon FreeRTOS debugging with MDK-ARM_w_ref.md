@@ -85,24 +85,45 @@
 27. In &#181;Vision open **Debug (printf) Viewer** [Open Debug (printf) Viewer](#open-debug-(printf)-viewer)
 28. In &#181;Vision in **Debug (printf) Viewer** you should see **Debug Output** [Debug Output in Debug (printf) Viewer](#debug-output-in-debug-(printf)-viewer)
 
-## Install missing packs<br/>                                   ![](./images/image_1.png)
-## Start Pack Installer<br/>                                    ![](./images/image_2.png)
-## Install packs<br/>                                           ![](./images/image_3.png)
-## Install ARM::CMSIS-FreeRTOS<br/>                             ![](./images/image_4.png)
-## Initial project build<br/>                                   ![](./images/image_5.png)
-## Start RTE configuration<br/>                                 ![](./images/image_6.png)
-## Select Software Components<br/>                              ![](./images/image_7.png)
-## Add freertos_evr.c file to project<br/>                      ![](./images/image_8.png)<br/>  ![](./images/arrow.png)<br/> ![](./images/image_9.png)
-## Add include path<br/>                                        ![](./images/image_10.png)<br/> ![](./images/arrow.png)<br/> ![](./images/image_11.png)<br/> ![](./images/arrow.png)<br/> ![](./images/image_12.png)
-## Add include to FreeRTOSConfig.h file<br/>                    ![](./images/image_13.png)
-## Update main.c file<br/>                                      ![](./images/image_14.png)
-## Add FreeRTOS.scvd file<br/>                                  ![](./images/image_15.png)<br/> ![](./images/arrow.png)<br/> ![](./images/image_16.png)<br/> ![](./images/arrow.png)<br/> ![](./images/image_17.png)
-## Start/Stop Debug session<br/>                                ![](./images/image_18.png)
-## Open Event Recorder Window<br/>                              ![](./images/image_19.png)
-## Start code execution<br/>                                    ![](./images/image_20.png)
-## FreeRTOS Events<br/>                                         ![](./images/image_21.png)
-## Update vMainUARTPrintString function in main.c file<br/>     ![](./images/image_22.png)
-## Re-target STDOUT to Event Recorder<br/>                      ![](./images/image_23.png)
-## Edit Event Recorder Configuration<br/>                       ![](./images/image_24.png)<br/> ![](./images/arrow.png)<br/> ![](./images/image_25.png)
-## Open Debug (printf) Viewer<br/>                              ![](./images/image_26.png)
-## Debug Output in Debug (printf) Viewer<br/>                   ![](./images/image_27.png)
+## Install missing packs
+   ![](./images/image_1.png)
+## Start Pack Installer
+   ![](./images/image_2.png)
+## Install packs
+   ![](./images/image_3.png)
+## Install ARM::CMSIS-FreeRTOS
+   ![](./images/image_4.png)
+## Initial project build
+   ![](./images/image_5.png)
+## Start RTE configuration
+   ![](./images/image_6.png)
+## Select Software Components
+   ![](./images/image_7.png)
+## Add freertos_evr.c file to project
+   ![](./images/image_8.png)<br/>![](./images/arrow.png)<br/>![](./images/image_9.png)
+## Add include path
+   ![](./images/image_10.png)<br/>![](./images/arrow.png)<br/>![](./images/image_11.png)<br/>![](./images/arrow.png)<br/>![](./images/image_12.png)
+## Add include to FreeRTOSConfig.h file
+   ![](./images/image_13.png)
+## Update main.c file
+   ![](./images/image_14.png)
+## Add FreeRTOS.scvd file
+   ![](./images/image_15.png)<br/>![](./images/arrow.png)<br/>![](./images/image_16.png)<br/>![](./images/arrow.png)<br/>![](./images/image_17.png)
+## Start/Stop Debug session
+   ![](./images/image_18.png)
+## Open Event Recorder Window
+   ![](./images/image_19.png)
+## Start code execution
+   ![](./images/image_20.png)
+## FreeRTOS Events
+   ![](./images/image_21.png)
+## Update vMainUARTPrintString function in main.c file
+   ![](./images/image_22.png)
+## Re-target STDOUT to Event Recorder
+   ![](./images/image_23.png)
+## Edit Event Recorder Configuration
+   ![](./images/image_24.png)<br/>![](./images/arrow.png)<br/>![](./images/image_25.png)
+## Open Debug (printf) Viewer
+   ![](./images/image_26.png)
+## Debug Output in Debug (printf) Viewer
+   ![](./images/image_27.png)

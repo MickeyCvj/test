@@ -21,7 +21,7 @@
     to *<BASE_FOLDER>*\demos\st\stm32l475_discovery\mdk\ folder
 9.  In &#181;Vision add **freertos_evr.c** source file to project (for example to **app** group) right click on app group and select 
     **Add Existing Files to Group \'app\'** **.****.****.**, select **freertos_evr.c** and click on **Add** button 
-    [Add freertos_evr.c file to project](#add-freertos evrc-file-to-project) and click on **Close** button to close the Add Files dialog
+    [Add freertos_evr.c file to project](#add-freertos_evrc-file-to-project) and click on **Close** button to close the Add Files dialog
 10. In &#181;Vision open **Options for Target** dialog and under **C/C++ (AC6)** tab add include path to project 
     root folder **.\\** [Add include path](#add-include-path) and click on **OK** button to close Options for Target dialog
 11. In &#181;Vision double click on **FreeRTOSConfig.h** file in project tree under **app_config** group and 

@@ -85,8 +85,10 @@
 27. In &#181;Vision open **Debug (printf) Viewer** [Open Debug (printf) Viewer](#open-debug-printf-viewer)
 28. In &#181;Vision in **Debug (printf) Viewer** you should see **Debug Output** [Debug Output in Debug (printf) Viewer](#debug-output-in-debug-printf-viewer)
 
-## Install missing packs<br/>               ![](./images/image_1.png)
-## Start Pack Installer<br/>                ![](./images/image_2.png)
+## Install missing packs
+   ![](./images/image_1.png)
+## Start Pack Installer
+   ![](./images/image_2.png)
 ## Install packs
    ![](./images/image_3.png)
 ## Install ARM::CMSIS-FreeRTOS

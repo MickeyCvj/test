@@ -21,27 +21,27 @@
     to *<BASE_FOLDER>*\demos\st\stm32l475_discovery\mdk\ folder
 9.  In &#181;Vision add **freertos_evr.c** source file to project (for example to **app** group) right click on app group and select 
     **Add Existing Files to Group \'app\'** **.****.****.**, select **freertos_evr.c** and click on **Add** button 
-    [Add freertos_evr.c file to project](#add-freertos_evr.c-file-to-project) and click on **Close** button to close the Add Files dialog
+    [Add freertos_evr.c file to project](#add-freertos evrc-file-to-project) and click on **Close** button to close the Add Files dialog
 10. In &#181;Vision open **Options for Target** dialog and under **C/C++ (AC6)** tab add include path to project 
     root folder **.\\** [Add include path](#add-include-path) and click on **OK** button to close Options for Target dialog
 11. In &#181;Vision double click on **FreeRTOSConfig.h** file in project tree under **app_config** group and 
-    insert:<br/> `#include "freertos_evr.h"`<br/> [Add include to FreeRTOSConfig.h file](#add-include-to-freertosconfig.h-file)
+    insert:<br/> `#include "freertos_evr.h"`<br/> [Add include to FreeRTOSConfig.h file](#add-include-to-freertosconfigh-file)
 12. In &#181;Vision double click on **main.c** file in project tree under **app** group and 
     insert:<br/> `#include "EventRecorder.h"`<br/> befor main function, and 
-    insert:<br/> `EventRecorderInitialize(EventRecordAll, 1);`<br/> at beginning of the main function [Update main.c file](#update-main.c-file)
+    insert:<br/> `EventRecorderInitialize(EventRecordAll, 1);`<br/> at beginning of the main function [Update main.c file](#update-mainc-file)
 13. Connect USB cable to **micro USB connector ST LINK** on B-L475E-IOT board
 14. In &#181;Vision open **Options for Target** dialog and under **Debug** tab click on **Manage Component Viewer Description Files** **.****.****.** button and 
     in Manage Component Viewer Description Files add **FreeRTOS.scvd** file found 
     in *<MDK_root_folder>*\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\ click on **Open** button, and click on **OK** button 
-    to close Manage Component Viewer Description Files and once more click on **OK** button to close Options for Target dialog [Add FreeRTOS.scvd file](#add-freertos.scvd-file)
+    to close Manage Component Viewer Description Files and once more click on **OK** button to close Options for Target dialog [Add FreeRTOS.scvd file](#add-freertosscvd-file)
 15. In &#181;Vision re-**build** project (**F7**)
-16. In &#181;Vision start the **Debug session (Ctrl + F5)** [Start/Stop Debug session](#start/stop-debug-session)
+16. In &#181;Vision start the **Debug session (Ctrl + F5)** [Start/Stop Debug session](#startstop-debug-session)
 17. In &#181;Vision open **Event Recorder Window** [Open Event Recorder Window](#open-event-recorder-window)
 18. In &#181;Vision **start the code execution** [Start code execution](#start-code-execution)
 19. In &#181;Vision in **Event Recorder Window** you should see **FreeRTOS Events** [FreeRTOS Events](#freertos-events)
 
 # Re-targeting UART printf debug to Event Recorder
-20. In &#181;Vision stop the **Debug session (Ctrl + F5)** [Start/Stop Debug session](#start/stop-debug-session)
+20. In &#181;Vision stop the **Debug session (Ctrl + F5)** [Start/Stop Debug session](#startstop-debug-session)
 21. In &#181;Vision remove from **app** group **retarget_io.c** file, select the file and right click and select **Remove File \'retarget_io.c\'** and confirm removal
 21. In &#181;Vision double click on **main.c** file in project tree under **app** group and replace function :
     ```
@@ -66,7 +66,7 @@
       }
     }
     ```
-    [Update vMainUARTPrintString function in main.c file](#update-vmainuartprintstring-function-in-main.c-file)
+    [Update vMainUARTPrintString function in main.c file](#update-vmainuartprintstring-function-in-mainc-file)
 22. In &#181;Vision in **main.c** remove function :
     ```
     void * malloc( size_t xSize )
@@ -81,9 +81,9 @@
 24. In &#181;Vision click on **Compiler** group in project tree and expand it, then click on **EventRecorderConf.h (Event Recorder)** file, 
     click on **Configuration Wizard** tab and select **256** instead of 64 for **Number of Records** [Edit Event Recorder Configuration](#edit-event-recorder-configuration)
 25. In &#181;Vision re-**build** project (**F7**)
-26. In &#181;Vision start the **Debug session (Ctrl + F5)** [Start Debug session](#start-debug-session)
-27. In &#181;Vision open **Debug (printf) Viewer** [Open Debug (printf) Viewer](#open-debug-(printf)-viewer)
-28. In &#181;Vision in **Debug (printf) Viewer** you should see **Debug Output** [Debug Output in Debug (printf) Viewer](#debug-output-in-debug-(printf)-viewer)
+26. In &#181;Vision start the **Debug session (Ctrl + F5)** [Start/Stop Debug session](#startstop-debug-session)
+27. In &#181;Vision open **Debug (printf) Viewer** [Open Debug (printf) Viewer](#open-debug-printf-viewer)
+28. In &#181;Vision in **Debug (printf) Viewer** you should see **Debug Output** [Debug Output in Debug (printf) Viewer](#debug-output-in-debug-printf-viewer)
 
 ## Install missing packs
    ![](./images/image_1.png)
